@@ -59,19 +59,19 @@ int main()
         array[i] = num;
     }
    
-    ///*
+   /*
     printf("array baguncada\n");
     imprimeArray(array, n);
-    //*/
+   */
     
     inicio = clock();
     Mergesort(0, n, array); //algo
     fim = clock();
     
-    ///*
+    /*
     printf("array crescente: \n");
     imprimeArray(array, n);
-    //*/
+    */
     
     tempo_gasto = ((double) (fim - inicio)) / CLOCKS_PER_SEC;
     printf("tempo de execução para %d números: %.18f milissegundos.\n", TAM_ARRAY, tempo_gasto*1000);
